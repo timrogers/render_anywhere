@@ -5,7 +5,7 @@ require 'render_anywhere/version'
 require 'render_anywhere/rendering_controller'
 
 module RenderAnywhere
-  def render(*args)
+  def render_anywhere(*args)
     rendering_controller.render_to_string(*args)
   end
 
